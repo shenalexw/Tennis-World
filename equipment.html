@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Tennis World</title>
+  <link rel="stylesheet" href="stylemenu.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ </head>
+ <body>
+     <main>
+        <header>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/tennis-ball-1845426-1564815.png" alt="tennisball">
+            <h1>Tennis World</h1>
+        </header>
+        <nav>
+            <ul id="mainmenu">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="equipment.html"> Equipment</a></li>
+                <li><a href="improvement.html"> Improvement</a></li>
+                <li><a href="subscription.html"> Subscription</a></li>
+            </ul>
+        </nav>
+
+        <section class="box">
+            <br>
+            <h2> Core Equipment</h2>
+            <p>It is important to have the correct equipment to play Tennis. It is beneficial not only to your ability to learn, but for your safety as well. Purchasing low quality products
+                will lead to injury and inability to reach your maximum potential in the sport. With that being said, You must have the following essnetials.
+            </p>
+            <ul>
+                <li> Racket</li>
+                <li> Attire</li>
+                <li> Equipment</li>
+            </ul>
+
+            <h2>Tennis Racket</h2>
+            <p> Anything that you can find at Walmart, Daiso, or any superstore that sells rackets under 50$ are not a worthwhile investment. Although they are made from the top brands
+                such as Wilson and Head, they are made to only help recreational players have the ability to play. The frames tend to be hollow and will break easily in the hands of a more advanced
+                player. If you are in a secluded area and do not have access to local shops, Tennis Warehouse and MidwestSports are both great online retailers for all Tennis Equipemnt. I highly recommend
+                looking for sale rackets. Players tend to gravitate towards newer models, but they do not offer much increase in playability in comparison to the price you have to pay. That being said, 
+                there is nothing wrong with buying used racquets. If you are in the Los Angeles area, the most notorious tennis shop is the Racket Doctor. Known for its stringing services and insanely
+                low prices, they are a fan favorite to all tennis players in Los Angeles. You can visit their websites in the links below.
+            </p>
+            <ul>
+                <li><a href="https://www.tennis-warehouse.com/" target="_blank"> Tennis Warehouse</a></li>
+                <li><a href="https://www.midwestsports.com/" target="_blank"> MidWestSports</a></li>
+                <li><a href="https://www.racketdoctor.com/" target="_blank"> Racket Doctor</a></li>
+                </ul>
+
+            <p>You can use the form bellow to find out what kind of racquet you should get.</p>
+            <h4>Racket Recomendator</h4>
+            <form class="racket">
+                <br>
+                <h5>How would you rate your skill level in tennis?</h5>
+                <input type="radio" id="beginner" name="skill" value="beginner">
+                <label for="beginner">Beginner (Lower than 2.5 NTRP Rating)</label><br>
+                <input type="radio" id="intermediate" name="skill" value="intermediate">
+                <label for="intermediate">Intermediate (2.5 - 4.0 NTRP Rating)</label><br>
+                <input type="radio" id="advanced" name="skill" value="advanced">
+                <label for="advanced">Advanced (Higher than 4.0 NTRP Rating)</label><br>
+                <input type="radio" id="nothing" name="skill" value="nothing">
+                <label for="nothing">N/A</label>
+                <br>
+                <br>
+                <h5>What attribute are you looking for in a racket?</h5>
+                <input type="radio" id="power" name="attribute" value="power">
+                <label for="power">Power</label><br>
+                <input type="radio" id="spin" name="attribute" value="spin">
+                <label for="spin">Spin</label><br>
+                <input type="radio" id="control" name="attribute" value="control">
+                <label for="Control">Control</label><br>
+                <input type="radio" id="nothing" name="attribute" value="nothing">
+                <label for="nothing">N/A</label>
+                
+                <br>
+                <button type="submit" id="racket_button">Find your Racket!</button>
+                <br></br>
+            </form>
+            <br>
+            <h4>Results</h4>
+            <ul>
+                <li><span>Racket: </span><span id="racket"></span></li>
+                <li><span>Brand: </span><span id="brand"></span></li>
+                <li><span>Strung Weight: </span><span id="weight"></span></li>
+                <li><span>String Pattern: </span><span id="string"></span></li>
+              </ul>
+            <h2>Attire and Equipment</h2>
+            <p> The two most important peices of attire are the shoes and bottoms that you wear. The shoe is personally based on personal preference.
+                You can look through tennis warehouse reviews to see what people like about them to influence your choice of purchase just as long as 
+                long as they are genuine tennis shoes. As for bottoms you want something that is breathable and HAS POCKETS!!! While you play tennis you 
+                need to make sure that you can carry one or two tennis balls with you at all times. Without pockets, the games become a lot slower and you spend
+                a majority of your time picking up tennis balls. 
+            </p>
+            <p>
+                As for equipment, my three recomnded items to bring with you are tennis balls, water, and towels. It is nice to always bring your own can 
+                because you do not want to be the guy that constantly uses other peoples tennis balls. For water, I would recommend bringing a large insulated 
+                bottle that can keep it nice and cold during hot days. Lastly, the towel is of upmost importance. Wiping the sweat during play helps you remain
+                focus during the rally. For holding all of your gear I recommend getting a tennis bag that can carry up to 6 racquets. I would advise not to get a 
+                three racket bag as they have minimal space for shoes and racquet, as well has having minimal extra compartments for your essentials 
+                such as phone, keys, and wallet.
+
+                Check out this video from Tennis Warehouse about other items you can bring to the court!
+            </p>
+            <h5>Tennis Bag Essentials (Tennis Warehouse)</h5>
+            <div class="center">
+                <iframe width=100% height="540" src="https://www.youtube.com/embed/6B_CKkrA_MU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="bottom">
+            <br>
+            <p> Tennis World by Alexander Shen</p>
+            <strong>References:</strong>
+            <a href="https://getbootstrap.com/" target="_blank"> Bootstrap: Carousel</a>
+            <a href="https://www.w3schools.com/" target="_blank"> w3schoos</a>
+            <br>
+        </section>
+
+     </main>
+
+   
+  </div>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+ </body>
+</html>
