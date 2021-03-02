@@ -48,16 +48,16 @@ function display(value_1, value_2){
     document.getElementById('string').textContent = "16 x 19";
   }
   if (value_1 == "intermediate"  && value_2 == "spin"){
-    document.getElementById('racket').textContent = "Pure Aero";
-    document.getElementById('brand').textContent = "Babolat";
-    document.getElementById('weight').textContent = "11.2 oz";
+    document.getElementById('racket').textContent = "Clash 98";
+    document.getElementById('brand').textContent = "Wilson";
+    document.getElementById('weight').textContent = "11.5 oz";
     document.getElementById('string').textContent = "16 x 19";
   }
   if (value_1 == "intermediate"  && value_2 == "control"){
-    document.getElementById('racket').textContent = "Pure Strike";
-    document.getElementById('brand').textContent = "Babolat";
+    document.getElementById('racket').textContent = "Blade 98";
+    document.getElementById('brand').textContent = "Wilson";
     document.getElementById('weight').textContent = "11.4 oz";
-    document.getElementById('string').textContent = "16 x 19";
+    document.getElementById('string').textContent = "18 x 20";
   }
   if (value_1 == "advanced"  && value_2 == "power"){
     document.getElementById('racket').textContent = "Pro Staff";
@@ -66,10 +66,10 @@ function display(value_1, value_2){
     document.getElementById('string').textContent = "16 x 19";
   }
   if (value_1 == "advanced"  && value_2 == "spin"){
-    document.getElementById('racket').textContent = "Pure Aero Tour";
-    document.getElementById('brand').textContent = "Babolat";
-    document.getElementById('weight').textContent = "11.8 oz";
-    document.getElementById('string').textContent = "16 x 19";
+    document.getElementById('racket').textContent = "VCORE 95";
+    document.getElementById('brand').textContent = "Yonex";
+    document.getElementById('weight').textContent = "11.5 oz";
+    document.getElementById('string').textContent = "16 x 20";
   }
   if (value_1 == "advanced"  && value_2 == "control"){
     document.getElementById('racket').textContent = "Prestie MP";
